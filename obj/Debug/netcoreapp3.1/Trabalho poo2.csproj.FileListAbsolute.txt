@@ -1,0 +1,13 @@
+C:\Users\otavi\Desktop\Trabalho poo2\bin\Debug\netcoreapp3.1\Trabalho poo2.exe
+C:\Users\otavi\Desktop\Trabalho poo2\bin\Debug\netcoreapp3.1\Trabalho poo2.deps.json
+C:\Users\otavi\Desktop\Trabalho poo2\bin\Debug\netcoreapp3.1\Trabalho poo2.runtimeconfig.json
+C:\Users\otavi\Desktop\Trabalho poo2\bin\Debug\netcoreapp3.1\Trabalho poo2.runtimeconfig.dev.json
+C:\Users\otavi\Desktop\Trabalho poo2\bin\Debug\netcoreapp3.1\Trabalho poo2.dll
+C:\Users\otavi\Desktop\Trabalho poo2\bin\Debug\netcoreapp3.1\Trabalho poo2.pdb
+C:\Users\otavi\Desktop\Trabalho poo2\obj\Debug\netcoreapp3.1\Trabalho poo2.csprojAssemblyReference.cache
+C:\Users\otavi\Desktop\Trabalho poo2\obj\Debug\netcoreapp3.1\Trabalho poo2.AssemblyInfoInputs.cache
+C:\Users\otavi\Desktop\Trabalho poo2\obj\Debug\netcoreapp3.1\Trabalho poo2.AssemblyInfo.cs
+C:\Users\otavi\Desktop\Trabalho poo2\obj\Debug\netcoreapp3.1\Trabalho poo2.csproj.CoreCompileInputs.cache
+C:\Users\otavi\Desktop\Trabalho poo2\obj\Debug\netcoreapp3.1\Trabalho poo2.dll
+C:\Users\otavi\Desktop\Trabalho poo2\obj\Debug\netcoreapp3.1\Trabalho poo2.pdb
+C:\Users\otavi\Desktop\Trabalho poo2\obj\Debug\netcoreapp3.1\Trabalho poo2.genruntimeconfig.cache
