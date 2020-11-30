@@ -23,18 +23,15 @@ namespace Trabalho_poo2
                 {
                     case 1:
                         cadastrarReserva(listaCliente, listaReserva);
-
                         break;
                     case 2:
-                        Console.WriteLine("teste 2");
-
+                        controlarGastos();
                         break;
                     case 3:
-                        Console.WriteLine("teste 3");
-
+                        fecharConta();
                         break;         
                     case 4:
-                        Console.WriteLine("teste 4");
+                        relatorioDiario();
                         break;         
 
                 }
@@ -51,8 +48,7 @@ namespace Trabalho_poo2
             Console.WriteLine("Digite o nome do cliente: ");    
             string nome = Console.ReadLine();
             Console.WriteLine("Digite o data de nascimento do cliente: ");
-            DateTime ? dataNascimento = null;    
-            dataNascimento =  DateTime.Parse(Console.ReadLine());
+            DateTime dataNascimento =  DateTime.Parse(Console.ReadLine());
             if (listaCliente.Exists(cliente => cliente.getNome() == nome && cliente.getDataNascimento() == dataNascimento))
             {
                 int rgCliente = 0;
@@ -97,27 +93,12 @@ namespace Trabalho_poo2
                 novaReserva.setRgCliente(rgCliente);
             }
         }
-        public static void cadastrarCliente(string nome, Nullable <DateTime> dataNascimento)
+        public static void cadastrarCliente(string nome, DateTime dataNascimento)
         {
             Cliente novoCliente = new Cliente();
-            // DateTime nascimento = dataNascimento;
-            if(nome != null)
-            {
-                novoCliente.setNome(nome);
-            } else {
-                Console.WriteLine("Digite o nome do cliente: ");    
-                novoCliente.setNome(Console.ReadLine());
-            }
-            if(!dataNascimento.HasValue)
-            {
-                novoCliente.setDataNascimento(dataNascimento);
-            } else {
-                Console.WriteLine("Digite a data de nascimento do cliente: ");    
-                novoCliente.setDataNascimento(DateTime.Parse(Console.ReadLine()));
-            }
-
             
-            
+            novoCliente.setNome(nome);
+            novoCliente.setDataNascimento(dataNascimento);
             Console.WriteLine("Digite o endereço do cliente: ");    
             novoCliente.setEndereco(Console.ReadLine());
             Console.WriteLine("Digite o telefone do cliente: ");    
@@ -130,6 +111,17 @@ namespace Trabalho_poo2
             novoCliente.setEstado(Console.ReadLine());
             Console.WriteLine("Digite o rg do cliente: ");    
             novoCliente.setRg(int.Parse(Console.ReadLine()));
+        }
+        public static void controlarGastos(){
+            
+        }
+        public static void fecharConta()
+        {
+
+        }
+        public static void relatorioDiario()
+        {
+
         }
     }
 }
